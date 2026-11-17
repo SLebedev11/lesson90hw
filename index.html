@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen IT Day</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    rel="stylesheet"
+    >
+</head>
+<body>
+    <section class="reg">
+        <div class="container container-reg">
+        <div class="reg__left">
+            <h2 class="reg__left-title"  data-aos="fade-right">Teen IT Day</h2>
+            <p class="reg__left-txt"  data-aos="fade-right">Вируши в подорож з IT командою та створи свій перший командний продукт.</p>
+            <ul class="reg__left-list"  data-aos="fade-right">
+                <li class="reg__left-list-item">Дата: 23 вересня 2027</li>
+                <li class="reg__left-list-item">Час: з 10:00 до 18:00</li>
+                <li class="reg__left-list-item">Офлайн</li>
+            </ul>
+        </div>
+        <form action="" class="form" data-aos="fade-left">
+            <label class="form__label">
+                Ім'я
+                <input class="form__input" type="text" name="name" required placeholder="Марк">
+            </label>
+            <label class="form__label">
+                пошта
+                <input class="form__input" type="email" name="email" required placeholder="name@example.com">
+            </label>
+            
+            <label class="form__label">
+                Оберіть спеціальність
+                <select class="form__select" name="specialty" id="specialty" required>
+                    <option value="">Обери варіант</option>
+                    <option value="front">Frontend</option>
+                    <option value="design">UI/UX дизайн</option>
+                    <option value="qa">QA тестувальник</option>
+                    <option value="pm">Project manager</option>
+                    <option value="backend">Backend</option>
+                    <option value="devops">DevOps</option>
+                </select>
+            </label>
+            
+            <label class="form__label form__label--checkbox">
+                <input class="form__checkbox" type="checkbox" name="agree" required>
+                <span>Я погоджуюсь з правилами участі</span>
+            </label>
+
+            <button class="form__btn" type="submit">
+                Відправити
+            </button>
+        </form>
+        </div>
+    </section>
+
+        <section class="team">
+        <div class="container-team container">
+            <h2 class="team__title" data-aos="fade-up">Хто створює сайт?</h2>
+            <ul class="team__list">
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="Frontend розробник" class="card__img">
+                        <h3 class="card__titel">Frontend</h3>
+                        <p class="card__txt">Перетворює дизайн-макет на живу сторінку: верстка, стилі, інтерактивність.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що робить фронтенд розробник?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Верстає сторінки за макетом</li>
+                                <li class="card__sublist-item">- Підключає стилі та скрипти</li>
+                                <li class="card__sublist-item">- Робить адаптив під mobile</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="UI/UX дизайнер" class="card__img">
+                        <h3 class="card__titel">UI/UX дизайн</h3>
+                        <p class="card__txt">Проєктує структуру сторінки та вигляд інтерфейсу.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що передає фронтенд розробнику?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Макет Desktop і mobile</li>
+                                <li class="card__sublist-item">- Дизайн систему</li>
+                                <li class="card__sublist-item">- Стани кнопок і форм</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card card--case" data-aos="flip-right">
+                        <div class="card__header">
+                            <img src="" alt="Зміна текстів кнопок" class="card__img">
+                            <h3 class="card__titel">заявка на участь</h3>
+                        </div>
+                        <p class="card__txt">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor molestiae nam, voluptate saepe voluptas atque?
+                        </p>
+                        <div class="card__demo">
+                            <button class="card__demo-btn" type="button">
+                                Надіслати заявку на участь у заході
+                            </button>
+                        </div>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="QA тестувальник" class="card__img">
+                        <h3 class="card__titel">QA тестувальник</h3>
+                        <p class="card__txt">Перевіряє сайт на помилки та слідкує, щоб усе працювало як треба.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що робить QA?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Пише тест-кейси</li>
+                                <li class="card__sublist-item">- Знаходить баги та оформлює звіти</li>
+                                <li class="card__sublist-item">- Перевіряє форми та посилання</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="Project manager" class="card__img">
+                        <h3 class="card__titel">Project manager</h3>
+                        <p class="card__txt">Керує командою, планує задачі та слідкує за дедлайнами.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що робить PM?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Розподіляє задачі між учасниками</li>
+                                <li class="card__sublist-item">- Проводить зустрічі та стендапи</li>
+                                <li class="card__sublist-item">- Контролює терміни та результат</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="Backend розробник" class="card__img">
+                        <h3 class="card__titel">Backend</h3>
+                        <p class="card__txt">Створює серверну частину: логіку, бази даних та API.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що робить бекенд розробник?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Пише серверну логіку</li>
+                                <li class="card__sublist-item">- Працює з базами даних</li>
+                                <li class="card__sublist-item">- Створює API для фронтенду</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+                <li class="team__list-item">
+                    <article class="team__list-card card" data-aos="flip-right">
+                        <img src="" alt="DevOps інженер" class="card__img">
+                        <h3 class="card__titel">DevOps</h3>
+                        <p class="card__txt">Налаштовує розгортання, сервери та автоматизацію процесів.</p>
+                        <details class="card__details">
+                            <summary class="card__summary">Що робить DevOps?</summary>
+                            <ul class="card__sublist">
+                                <li class="card__sublist-item">- Налаштовує CI/CD</li>
+                                <li class="card__sublist-item">- Керує серверами та контейнерами</li>
+                                <li class="card__sublist-item">- Автоматизує деплой</li>
+                            </ul>
+                        </details>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+    });
+</script>
+</html>
